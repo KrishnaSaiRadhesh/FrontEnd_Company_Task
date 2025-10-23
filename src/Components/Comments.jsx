@@ -103,7 +103,7 @@ const Comments = () => {
   }, [currentIndex, testimonials.length]);
 
   return (
-    <div className='sixcomments flex flex-col items-center mt-10 sm:mt-16 lg:mt-20 mb-10 sm:mb-16 lg:mb-20 relatComments'>
+    <div className='sixcomments flex flex-col items-center mt-10 sm:mt-16 lg:mt-20 mb-10 sm:mb-16 lg:mb-20 relatComments bg-[url("footer/test-vec.svg")] bg-no-repeat bg-bottom-left'>
       <div className="heading text-center">
         <h1 
           style={{ fontFamily: "Playfair Display, serif", fontWeight: 600 }} 

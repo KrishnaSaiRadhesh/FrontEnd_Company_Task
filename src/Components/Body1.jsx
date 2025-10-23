@@ -159,7 +159,7 @@ const Body1 = () => {
         <div className='flex flex-col lg:flex-row max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative'>
           <div 
             ref={leftSideRef} 
-            className="threeo no-scrollbar flex flex-col gap-6 lg:gap-10 w-full lg:w-1/2 lg:pr-8 bg-[url('Body1/Bodyi.svg')] bg-left bg-no-repeat bg-contain lg:bg-auto mb-10 lg:mb-0"
+            className="threeo no-scrollbar flex flex-col gap-6 lg:gap-10 w-full lg:w-1/2 lg:pr-8 bg-[url('Body1/Bodyi.svg')] bg-left bg-no-repeat bg-cover lg:bg-auto mb-10 lg:mb-0"
           >
             <div className='pt-6 lg:pt-10'>
               <h1 

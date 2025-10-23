@@ -90,8 +90,8 @@ const Body2 = () => {
 
   return (
     <div>
-      <div className="six min-h-screen py-8 sm:py-12 px-4 sm:px-6 lg:px-8">
-        <div className='max-w-6xl mx-auto'>
+      <div className="six min-h-screen py-8 sm:py-12 px-4 sm:px-6 lg:px-8 bg-[url('nutrients-vec.svg')] bg-no-repeat bg-bottom-right">
+        <div className='max-w-5xl mx-auto'>
           {/* Heading Section */}
           <div className='heading text-center mb-8 sm:mb-10 flex flex-col items-center gap-3 sm:gap-4'>
             <h1 

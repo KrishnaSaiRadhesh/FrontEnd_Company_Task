@@ -20,7 +20,7 @@ const Card = () => {
                     </p>
                     <button 
                       style={{ fontFamily: "Raleway, sans-serif", fontWeight: 500 }} 
-                      className='text-base sm:text-lg lg:text-[18px] text-[#2C4143] bg-[#efecd6] leading-relaxed py-3 px-6 lg:px-5 rounded-full hover:bg-[#d8d5c0] transition-colors duration-200'
+                      className='text-base sm:text-lg lg:text-[18px] text-[#efecd679] hover:text-[#efecd6]  hover:bg-[url("btn-vec.svg")] bg-no-repeat bg-bottom-right cursor-pointer leading-relaxed py-3 px-6 lg:px-5 rounded-full border border-[#efecd6]'
                     >
                         Our Story
                     </button>
