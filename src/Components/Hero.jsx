@@ -33,7 +33,7 @@ const Hero = () => {
               <img 
                 src="Hero/Home_Page_Start.png" 
                 alt="NeoGreens Product" 
-                className='h-[280px] sm:h-[350px] md:h-[400px] lg:h-[450px] w-auto object-contain'
+                className='h-[280px] sm:h-[350px] md:h-[400px] lg:h-[500px] w-auto object-contain'
               />
             </div>
           </div>
