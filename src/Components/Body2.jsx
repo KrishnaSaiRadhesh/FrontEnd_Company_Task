@@ -91,7 +91,7 @@ const Body2 = () => {
   return (
     <div>
       <div className="six min-h-screen py-8 sm:py-12 px-4 sm:px-6 lg:px-8 bg-[url('/nutrients-vec.svg')] bg-no-repeat bg-bottom-right">
-        <div className="max-w-5xl mx-auto">
+        <div className="max-w-4xl mx-auto">
           {/* Heading Section */}
           <div className="heading text-center mb-8 sm:mb-10 flex flex-col items-center gap-3 sm:gap-4">
             <h1
@@ -119,7 +119,7 @@ const Body2 = () => {
 
           {/* Table Section */}
           <div className="mb-8 sm:mb-10">
-            <div className="bg-white rounded-xl shadow-lg p-4">
+            <div className="bg-white rounded-xl shadow-xl p-4">
               <div className="overflow-x-auto no-scrollbar">
                 <div className="min-w-full lg:min-w-[800px]">
                   <table className="w-full">
@@ -134,7 +134,7 @@ const Body2 = () => {
                         >
                           Information
                         </th>
-                        <th className="px-4 sm:px-6 py-4 text-center bg-slate-700 min-w-[120px] sm:min-w-[150px]">
+                        <th className="px-4 sm:px-6 py-4 text-center bg-slate-700 min-w-[120px] sm:min-w-[150px] rounded-t-xl">
                           <div className="flex flex-col items-center gap-1 sm:gap-2">
                             <img
                               src="/neogreens-logo.svg"
