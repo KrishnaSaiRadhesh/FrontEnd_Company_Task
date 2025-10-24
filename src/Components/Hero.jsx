@@ -3,7 +3,7 @@ import React from 'react'
 const Hero = () => {
   return (
     <>
-      <div className='bg-[#2C4143] bg-[url("public/Hero/homep.svg")] bg-no-repeat bg-top-left bg-cover lg:bg-cover'>
+      <div className='bg-[#2C4143] bg-[url("/Hero/homep.svg")] bg-no-repeat bg-top-left bg-cover lg:bg-cover'>
         <div className='max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-10 lg:py-12'>
           <div className='flex flex-col-reverse lg:flex-row justify-between items-center gap-8 lg:gap-12'>
             {/* Text Content */}
