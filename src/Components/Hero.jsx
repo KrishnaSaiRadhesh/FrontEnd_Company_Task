@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <>
       <div className='bg-[#2C4143] bg-[url("/Hero/homep.svg")] bg-no-repeat bg-top-left bg-cover lg:bg-cover'>
-        <div className='max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-10 lg:py-12'>
+        <div className='max-w-6xl mx-auto px-4 sm:px-6 lg:px-9 py-8 md:py-10 lg:py-13'>
           <div className='flex flex-col-reverse lg:flex-row justify-between items-center gap-8 lg:gap-12'>
             {/* Text Content */}
             <div className='flex flex-col gap-4 md:gap-6 w-full lg:w-[55%] text-center lg:text-left order-2 lg:order-1'>

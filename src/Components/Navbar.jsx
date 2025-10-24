@@ -14,7 +14,7 @@ const Navbar = () => {
 
   return (
     <nav className='py-4 bg-[#2C4143] border border-b-[#EFECD6]/60 font-raleway'>
-      <div className='max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between'>
+      <div className='max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between'>
         <div className='Logo'>
           <Link to="/" onClick={closeMenu}>
             <img 
@@ -26,17 +26,17 @@ const Navbar = () => {
           </Link>
         </div>
 
-        <ul className='hidden md:flex items-center gap-6 lg:gap-10 text-white text-[16px] lg:text-[18px]'>
-          <li className='hover:underline transition-all duration-200'>
+        <ul style={{ fontFamily: "Raleway, sans-serif", fontWeight:500 }} className='hidden md:flex items-center gap-6 lg:gap-10 text-white text-[16px] lg:text-[18px]'>
+          <li className= 'hover:underline transition-all duration-200'>
             <NavLink to="/" className={({ isActive }) => 
-              isActive ? 'text-[#EFECD6] font-semibold' : 'text-white hover:text-[#EFECD6]'
+              isActive ? 'text-white font-medium' : 'text-white hover:text-[#EFECD6]'
             }>
               About Us
             </NavLink>
           </li>
           <li className='hover:underline transition-all duration-200'>
             <NavLink to="/" className={({ isActive }) => 
-              isActive ? 'text-[#EFECD6] font-semibold' : 'text-white hover:text-[#EFECD6]'
+              isActive ? 'text-white font-medium' : 'text-white hover:text-[#EFECD6]'
             }>
               Contact Us
             </NavLink>
