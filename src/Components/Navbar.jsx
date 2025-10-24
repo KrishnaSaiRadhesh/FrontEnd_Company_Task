@@ -18,7 +18,7 @@ const Navbar = () => {
         <div className='Logo'>
           <Link to="/" onClick={closeMenu}>
             <img 
-              src="src\assets\neogreens-logo.svg" 
+              src="neogreens-logo.svg" 
               alt="Logo" 
               size={10}
               className='w-32 h-8 sm:w-40 sm:h-10 md:w-48 md:h-12'

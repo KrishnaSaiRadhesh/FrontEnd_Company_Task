@@ -116,40 +116,40 @@ const Body1 = () => {
 
   const rightSideCards = [
     {
-      icon: "src/assets/Body1/Group-4962.svg",
+      icon: "/Body1/Group-4962.svg",
       title: "Feel Foggy or Unfocused?",
       description: "Designed to support mental clarity with B12 and adaptogens.",
-      image: "src/assets/Body1/Image-1-3.png"
+      image: "/Body1/Image-1-3.png"
     },
     {
-      icon: "src/assets/Body1/Group-4962-3.svg",
+      icon: "/Body1/Group-4962-3.svg",
       title: "Bloating or Indigestion?",
       description: "Aids digestion with probiotics and digestive enzymes.",
-      image: "src/assets/Body1/Image-2.png"
+      image: "/Body1/Image-2.png"
     },
     {
-      icon: "src/assets/Body1/Group-4962-1.svg",
+      icon: "/Body1/Group-4962-1.svg",
       title: "Constant Energy Crashes?",
       description: "Supports sustained energy with clean, plant-based nutrients",
-      image: "src/assets/Body1/Image-3.png"
+      image: "/Body1/Image-3.png"
     },
     {
-      icon: "src/assets/Body1/Group-4962-2.svg",
+      icon: "/Body1/Group-4962-2.svg",
       title: "Busy Routines messing up nutrition?",
       description: "One simple scoop a day keeps your essentials covered.",
-      image: "src/assets/Body1/Image-4.png"
+      image: "/Body1/Image-4.png"
     },
     {
-      icon: "src/assets/Body1/Group-4962-3.svg",
+      icon: "/Body1/Group-4962-3.svg",
       title: "Too many supplements to choose from?",
       description: "NeoGreens simplifies it all. Just one powder, once a day.",
-      image: "src/assets/Body1/Image-5.png"
+      image: "/Body1/Image-5.png"
     },
     {
-      icon: "src/assets/Body1/Group-4962-4.svg",
+      icon: "/Body1/Group-4962-4.svg",
       title: "Frequent body pains and aches?",
       description: "Takes care of essential vitamin deficiencies",
-      image: "src/assets/Body1/Image-6.png"
+      image: "/Body1/Image-6.png"
     }
   ];
 
@@ -159,7 +159,7 @@ const Body1 = () => {
         <div className='flex flex-col lg:flex-row max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative'>
           <div 
             ref={leftSideRef} 
-            className="threeo no-scrollbar flex flex-col gap-6 lg:gap-10 w-full lg:w-1/2 lg:pr-8 bg-[url('src/assets/Body1/Bodyi.svg')] bg-left bg-no-repeat bg-cover lg:bg-auto mb-10 lg:mb-0"
+            className="threeo no-scrollbar flex flex-col gap-6 lg:gap-10 w-full lg:w-1/2 lg:pr-8 bg-[url('/Body1/Bodyi.svg')] bg-left bg-no-repeat bg-cover lg:bg-auto mb-10 lg:mb-0"
           >
             <div className='pt-6 lg:pt-10'>
               <h1 
@@ -182,7 +182,7 @@ const Body1 = () => {
               </button>
             </div>
             <img 
-              src="src/assets/Body1/n.png" 
+              src="/Body1/n.png" 
               alt="NeoGreens product" 
               className='w-full max-w-sm lg:max-w-md mx-auto lg:mx-0' 
             />
