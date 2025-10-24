@@ -30,9 +30,9 @@ const Bar2 = () => {
           
           {/* Image Content */}
           <div className='relative w-full lg:w-1/2 flex justify-center order-1 lg:order-2'>
-            <div className='bg-[url("Bar2/ready-vec.svg")] bg-no-repeat bg-bottom bg-contain w-full max-w-sm sm:max-w-md lg:max-w-none lg:w-[500px] h-[200px] sm:h-[250px] lg:h-[400px]'>
+            <div className='bg-[url("src/assets/Bar2/ready-vec.svg")] bg-no-repeat bg-bottom bg-contain w-full max-w-sm sm:max-w-md lg:max-w-none lg:w-[500px] h-[200px] sm:h-[250px] lg:h-[400px]'>
               <img 
-                src="Bar2/bottom.png" 
+                src="src/assets/Bar2/bottom.png" 
                 alt="NeoGreens product" 
                 className=' ml-20 lg:absolute lg:mb-13  sm:bottom-6 lg:bottom-0 w-[280px] sm:w-[350px] lg:w-[500px] max-w-none'
               />

@@ -18,7 +18,7 @@ const Navbar = () => {
         <div className='Logo'>
           <Link to="/" onClick={closeMenu}>
             <img 
-              src="./neogreens-logo.svg" 
+              src="src\assets\neogreens-logo.svg" 
               alt="Logo" 
               size={10}
               className='w-32 h-8 sm:w-40 sm:h-10 md:w-48 md:h-12'
@@ -35,7 +35,7 @@ const Navbar = () => {
             </NavLink>
           </li>
           <li className='hover:underline transition-all duration-200'>
-            <NavLink to="/contact" className={({ isActive }) => 
+            <NavLink to="/" className={({ isActive }) => 
               isActive ? 'text-[#EFECD6] font-semibold' : 'text-white hover:text-[#EFECD6]'
             }>
               Contact Us

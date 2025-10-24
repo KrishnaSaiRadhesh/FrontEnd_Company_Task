@@ -5,7 +5,7 @@ const Card = () => {
     <div className='sixcard  px-4 sm:px-6 lg:px-8'>
         <div className='max-w-5xl relative w-full h-auto min-h-[450px] lg:h-[550px] mx-auto flex flex-col-reverse lg:flex-row items-center justify-between bg-[#2C4143] rounded-t-xl overflow-hidden'>
             {/* Text Content */}
-            <div className='w-full  lg:w-1/2 py-8 lg:py-15 px-6 sm:px-8 lg:pl-10 flex flex-col items-start gap-6 lg:gap-10 bg-[url("Card/vec-simple.svg")] bg-no-repeat bg-bottom bg-contain lg:bg-auto order-2 lg:order-1'>
+            <div className='w-full  lg:w-1/2 py-8 lg:py-15 px-6 sm:px-8 lg:pl-10 flex flex-col items-start gap-6 lg:gap-10 bg-[url("src/assets/Card/vec-simple.svg")] bg-no-repeat bg-bottom bg-contain lg:bg-auto order-2 lg:order-1'>
                     <h1 
                       style={{ fontFamily: "Playfair Display, serif", fontWeight: 600 }} 
                       className='text-2xl sm:text-3xl lg:text-[32px] leading-[1.3] sm:leading-[1.4] lg:leading-[42px] text-[#efecd6]'
@@ -20,7 +20,7 @@ const Card = () => {
                     </p>
                     <button 
                       style={{ fontFamily: "Raleway, sans-serif", fontWeight: 500 }} 
-                      className='text-base sm:text-lg lg:text-[18px] text-[#efecd679] hover:text-[#efecd6]  hover:bg-[url("btn-vec.svg")] bg-no-repeat bg-bottom-right cursor-pointer leading-relaxed py-3 px-6 lg:px-5 rounded-full border border-[#efecd6]'
+                      className='text-base sm:text-lg lg:text-[18px] text-[#efecd679] hover:text-[#efecd6]  hover:bg-[url("src/assets/btn-vec.svg")] bg-no-repeat bg-bottom-right cursor-pointer leading-relaxed py-3 px-6 lg:px-5 rounded-full border border-[#efecd6]'
                     >
                         Our Story
                     </button>
@@ -29,7 +29,7 @@ const Card = () => {
             {/* Image Content */}
             <div className='w-full hidden  lg:w-[60%] lg:absolute right-0   lg:flex items-center justify-center order-1 lg:order-2'>
                 <img 
-                  src="Card/simple.png" 
+                  src="src/assets/Card/simple.png" 
                   alt="NeoGreens product solution" 
                   className='w-full h-full object-cover lg:object-contain' 
                 />

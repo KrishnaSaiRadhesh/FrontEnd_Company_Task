@@ -90,7 +90,7 @@ const Body2 = () => {
 
   return (
     <div>
-      <div className="six min-h-screen py-8 sm:py-12 px-4 sm:px-6 lg:px-8 bg-[url('nutrients-vec.svg')] bg-no-repeat bg-bottom-right">
+      <div className="six min-h-screen py-8 sm:py-12 px-4 sm:px-6 lg:px-8 bg-[url('src/assets/nutrients-vec.svg')] bg-no-repeat bg-bottom-right">
         <div className='max-w-5xl mx-auto'>
           {/* Heading Section */}
           <div className='heading text-center mb-8 sm:mb-10 flex flex-col items-center gap-3 sm:gap-4'>
@@ -131,7 +131,7 @@ const Body2 = () => {
                         <th className="px-4 sm:px-6 py-4 text-center bg-slate-700 min-w-[120px] sm:min-w-[150px]">
                           <div className="flex flex-col items-center gap-1 sm:gap-2">
                             <img
-                              src="neogreens-logo.svg"
+                              src="src/assets/neogreens-logo.svg"
                               alt="neogreens"
                               className="h-6 sm:h-8 mx-auto"
                             />
@@ -169,36 +169,36 @@ const Body2 = () => {
                           <td className="px-4 sm:px-6 py-4 text-center bg-amber-50 min-w-[120px] sm:min-w-[150px]">
                             <div className="flex justify-center">
                               {row.neogreens ? (
-                                <img src="Body2/User-Images.svg" alt="Yes" className="h-5 w-5 sm:h-6 sm:w-6" />
+                                <img src="src/assets/Body2/User-Images.svg" alt="Yes" className="h-5 w-5 sm:h-6 sm:w-6" />
                               ) : (
-                                <img src="Body2/User-gray.svg" alt="No" className="h-5 w-5 sm:h-6 sm:w-6" />
+                                <img src="src/assets/Body2/User-gray.svg" alt="No" className="h-5 w-5 sm:h-6 sm:w-6" />
                               )}
                             </div>
                           </td>
                           <td className="px-4 sm:px-6 py-4 text-center min-w-[120px] sm:min-w-[150px]">
                             <div className="flex justify-center">
                               {row.plantBased ? (
-                                <img src="Body2/User-Images.svg" alt="Yes" className="h-5 w-5 sm:h-6 sm:w-6" />
+                                <img src="src/assets/Body2/User-Images.svg" alt="Yes" className="h-5 w-5 sm:h-6 sm:w-6" />
                               ) : (
-                                <img src="Body2/User-gray.svg" alt="No" className="h-5 w-5 sm:h-6 sm:w-6" />
+                                <img src="src/assets/Body2/User-gray.svg" alt="No" className="h-5 w-5 sm:h-6 sm:w-6" />
                               )}
                             </div>
                           </td>
                           <td className="px-4 sm:px-6 py-4 text-center min-w-[120px] sm:min-w-[150px]">
                             <div className="flex justify-center">
                               {row.animalBased ? (
-                                <img src="Body2/User-Images.svg" alt="Yes" className="h-5 w-5 sm:h-6 sm:w-6" />
+                                <img src="src/assets/Body2/User-Images.svg" alt="Yes" className="h-5 w-5 sm:h-6 sm:w-6" />
                               ) : (
-                                <img src="Body2/User-gray.svg" alt="No" className="h-5 w-5 sm:h-6 sm:w-6" />
+                                <img src="src/assets/Body2/User-gray.svg" alt="No" className="h-5 w-5 sm:h-6 sm:w-6" />
                               )}
                             </div>
                           </td>
                           <td className="px-4 sm:px-6 py-4 text-center min-w-[120px] sm:min-w-[150px]">
                             <div className="flex justify-center">
                               {row.whey ? (
-                                <img src="Body2/User-Images.svg" alt="Yes" className="h-5 w-5 sm:h-6 sm:w-6" />
+                                <img src="src/assets/Body2/User-Images.svg" alt="Yes" className="h-5 w-5 sm:h-6 sm:w-6" />
                               ) : (
-                                <img src="Body2/User-gray.svg" alt="No" className="h-5 w-5 sm:h-6 sm:w-6" />
+                                <img src="src/assets/Body2/User-gray.svg" alt="No" className="h-5 w-5 sm:h-6 sm:w-6" />
                               )}
                             </div>
                           </td>

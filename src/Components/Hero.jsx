@@ -3,7 +3,7 @@ import React from 'react'
 const Hero = () => {
   return (
     <>
-      <div className='bg-[#2C4143] bg-[url("Hero/homep.svg")] bg-no-repeat bg-top-left bg-cover lg:bg-cover'>
+      <div className='bg-[#2C4143] bg-[url("src/assets/Hero/homep.svg")] bg-no-repeat bg-top-left bg-cover lg:bg-cover'>
         <div className='max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-10 lg:py-12'>
           <div className='flex flex-col-reverse lg:flex-row justify-between items-center gap-8 lg:gap-12'>
             {/* Text Content */}
@@ -31,9 +31,9 @@ const Hero = () => {
             {/* Image Content */}
             <div className='w-full lg:w-1/2 flex justify-center order-1 lg:order-2'>
               <img 
-                src="Hero/Home_Page_Start.png" 
+                src="src/assets/Hero/Home_Page_Start.png" 
                 alt="NeoGreens Product" 
-                className='h-[280px] sm:h-[350px] md:h-[400px] lg:h-[500px] w-auto object-contain'
+                className='h-[280px] sm:h-[350px] md:h-[400px] lg:h-[500px] lg:w-[500px] w-auto object-contain'
               />
             </div>
           </div>
@@ -51,7 +51,7 @@ const Hero = () => {
               {/* Mobile Layout */}
               <div className='flex items-center gap-2'>
                 <img 
-                  src="Hero/Gluten-free.svg" 
+                  src="src/assets/Hero/Gluten-free.svg" 
                   alt="Gluten Free" 
                   className='w-6 h-6'
                 />
@@ -60,7 +60,7 @@ const Hero = () => {
               <div className='bg-[#2C4143] h-1 w-1 rounded-full'></div>
               <div className='flex items-center gap-2'>
                 <img 
-                  src="Hero/Vegan.svg" 
+                  src="src/assets/Hero/Vegan.svg" 
                   alt="Vegan" 
                   className='w-6 h-6'
                 />
@@ -71,7 +71,7 @@ const Hero = () => {
             <div className='flex sm:hidden justify-center items-center gap-6 w-full'>
               <div className='flex items-center gap-2'>
                 <img 
-                  src="Hero/Organic.svg" 
+                  src="src/assets/Hero/Organic.svg" 
                   alt="Organic" 
                   className='w-6 h-6'
                 />
@@ -81,7 +81,7 @@ const Hero = () => {
               <div className='bg-[#2C4143] h-1 w-1 rounded-full'></div>
               <div className='flex items-center gap-2'>
                 <img 
-                  src="Hero/Zsn.svg" 
+                  src="src/assets/Hero/Zsn.svg" 
                   alt="Zero Synthetic Nutrients"
                   className='w-6 h-6'
                 />
@@ -94,7 +94,7 @@ const Hero = () => {
             {/* Desktop Layout */}
             <div className='hidden sm:flex items-center gap-2 sm:gap-3 flex-1 min-w-[140px] justify-center'>
               <img 
-                src="Hero/Gluten-free.svg" 
+                src="src/assets/Hero/Gluten-free.svg" 
                 alt="Gluten Free" 
                 className='w-6 h-6 sm:w-8 sm:h-8'
               />
@@ -104,7 +104,7 @@ const Hero = () => {
             <div className='hidden sm:block bg-[#2C4143] h-1 w-1 rounded-full'></div>
             <div className='hidden sm:flex items-center gap-2 sm:gap-3 flex-1 min-w-[140px] justify-center'>
               <img 
-                src="Hero/Vegan.svg" 
+                src="src/assets/Hero/Vegan.svg" 
                 alt="Vegan" 
                 className='w-6 h-6 sm:w-8 sm:h-8'
               />
@@ -115,7 +115,7 @@ const Hero = () => {
 
             <div className='hidden sm:flex items-center gap-2 sm:gap-3 flex-1 min-w-[140px] justify-center'>
               <img 
-                src="Hero/Organic.svg" 
+                src="src/assets/Hero/Organic.svg" 
                 alt="Organic" 
                 className='w-6 h-6 sm:w-8 sm:h-8'
               />
@@ -126,7 +126,7 @@ const Hero = () => {
 
             <div className='hidden sm:flex items-center gap-2 sm:gap-3 flex-1 min-w-[160px] justify-center'>
               <img 
-                src="Hero/Zsn.svg" 
+                src="src/assets/Hero/Zsn.svg" 
                 alt="Zero Synthetic Nutrients"
                 className='w-6 h-6 sm:w-8 sm:h-8'
               />

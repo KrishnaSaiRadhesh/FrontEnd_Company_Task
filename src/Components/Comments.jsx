@@ -9,31 +9,31 @@ const Comments = () => {
       quote: "Finally, mental clarity that sticks with just one scoop.",
       desc: "Between work and workouts, my mind used to feel fogged by midday. NeoGreens changed the game. Now I'm sharp, calm, and focused even on the toughest days.",
       name: "Krithi Koushal",
-      img: "Comments/Rectangle-45-1.png"
+      img: "src/assets/Comments/Rectangle-45-1.png"
     },
     {
       quote: "No more bloating, only lighter, happier gut.",
       desc: " I was dragged down by sluggish mornings—lack of energy, poor focus, uncomfortable digestion. NeoGreens turned that around. One daily scoop, and I'm more alert, active, and resilient.",
       name: "Michun Roy",
-      img: "Comments/Rectangle-46.png"
+      img: "src/assets/Comments/Rectangle-46.png"
     },
     {
       quote: "Reset my routine inside and out.",
       desc: "Ditching my multitabs for NeoGreens simplified my mornings. Just one scoop, clean energy, and focus. I feel more grounded and ready to tackle the day.",
       name: "Jennifer",
-      img: "Comments/Rectangle-46-2.png"
+      img: "src/assets/Comments/Rectangle-46-2.png"
     },
     {
       quote: "From sluggish to unstoppable.",
       desc: "I was dragged down by sluggish mornings—lack of energy, poor focus. NeoGreens turned that around. One daily scoop, and I'm resilient, active, and present.",
       name: "Rahul Harrison",
-      img: "Comments/Rectangle-46-3.png"
+      img: "src/assets/Comments/Rectangle-46-3.png"
     },
     {
       quote: "One scoop, so many wins.",
       desc: "Travel, gym, work— NeoGreens travels with me. It's like a reset button, better digestion, clearer mind, and more energy. Finally, a wellness routine that fits my life.",
       name: "Emily Johnson",
-      img: "Comments/Rectangle-46-4.png"
+      img: "src/assets/Comments/Rectangle-46-4.png"
     }
   ];
 
@@ -103,7 +103,7 @@ const Comments = () => {
   }, [currentIndex, testimonials.length]);
 
   return (
-    <div className='sixcomments flex flex-col items-center mt-10 sm:mt-16 lg:mt-20 mb-10 sm:mb-16 lg:mb-20 relatComments bg-[url("footer/test-vec.svg")] bg-no-repeat bg-bottom-left'>
+    <div className='sixcomments flex flex-col items-center mt-10 sm:mt-16 lg:mt-20 mb-10 sm:mb-16 lg:mb-20 relatComments bg-[url("src/assets/footer/test-vec.svg")] bg-no-repeat bg-bottom-left'>
       <div className="heading text-center">
         <h1 
           style={{ fontFamily: "Playfair Display, serif", fontWeight: 600 }} 
@@ -154,7 +154,7 @@ const Comments = () => {
               >
                 <div className='p-5 flex flex-col gap-5 h-full'>
                   <img 
-                    src="Comments/quote.svg" 
+                    src="src/assets/Comments/quote.svg" 
                     alt="Quote" 
                     className='w-8 h-8 mb-2' 
                   />
